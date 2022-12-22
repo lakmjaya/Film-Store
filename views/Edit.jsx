@@ -6,7 +6,7 @@ class Edit extends React.Component{
         return( 
             
             <div className="main"> 
-            <link rel="stylesheet" type="text/css" href="../css/style.css"/>         
+            <link rel="stylesheet" type="text/css" href="../styles/new.css"/>        
             <div>
                 <h1>
                     Edit Film Details

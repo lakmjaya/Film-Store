@@ -18,7 +18,7 @@ class Show extends React.Component{
         } 
         return(
             <div> 
-                <link rel="stylesheet" type="text/css" href="../styles/new.css"/> */}
+                <link rel="stylesheet" type="text/css" href="../styles/new.css"/> 
                 <div className="main">
                 
                 <h2>

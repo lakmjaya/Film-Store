@@ -5,8 +5,7 @@ class Index extends React.Component{
     render(){
         const {films}=this.props;
         return(
-            <DefaultLayout title={"Available Films for Sale !"}>
-                {/* <link rel="stylesheet" type="text/css" href="../css/style.css"/> */}
+            <div>
                 <div className="main">
                 <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
                 <div className="title">
@@ -16,7 +15,22 @@ class Index extends React.Component{
                     {films.map((film)=>{
                         return(
                         <li>
-                            <a href={`/films/${film.id}`}>{film.name}</a> 
+                            <nav>
+                                <div>
+                                    <a href={`/films/${film.id}`}>{film.name}</a>
+                                </div>
+                                <div className='flex-container'>
+                                <div>
+                                    <img src={film.img} width='40%' alt={film.name}/>
+                                </div>
+                                <div>
+                                    <h3>
+                                    Price : ${film.price} 
+                                    </h3>
+                                </div>
+                                </div>
+                                
+                            </nav> 
                              <br /><br />
                         </li>
                         );
@@ -28,7 +42,7 @@ class Index extends React.Component{
                     <a href="/"> Home</a>
                 </nav>
                 </div> 
-            </DefaultLayout>
+            </div>
         );
     }
 }

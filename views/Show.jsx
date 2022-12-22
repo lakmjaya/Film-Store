@@ -14,19 +14,18 @@ class Show extends React.Component{
             }
             else{
                 return(<div>Out Of Stock</div>);
-            }
-            
+            }          
         } 
         return(
-            <DefaultLayout> 
+            <div> 
                 <link rel="stylesheet" type="text/css" href="../styles/new.css"/> */}
                 <div className="main">
-                <div>
+                
                 <h2>
                 {films.name}
                 </h2> 
-                </div>  
                 <div><img src={films.img} width='40%' alt={films.name}/></div>
+                
                 <div>Description: {films.description} </div><br />
                 </div>
                 
@@ -55,7 +54,7 @@ class Show extends React.Component{
                 </div>
                 </div> 
            
-            </DefaultLayout>
+            </div>
         );
     }
 }

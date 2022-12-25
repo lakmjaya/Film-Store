@@ -8,7 +8,6 @@ class New extends React.Component{
                 <div className="title">
                     <h1>Add New Film DVD Page</h1>
                 </div> 
-                <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
                 <form action="/films" method='POST'>
                     <fieldset className="fieldset-container">
                     <div className="input-container">

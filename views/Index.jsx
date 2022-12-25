@@ -1,5 +1,5 @@
 const React = require('react');
-const DefaultLayout = require('./Default');
+
 
 class Index extends React.Component{
     render(){
@@ -9,24 +9,26 @@ class Index extends React.Component{
                 <div className="main">
                 <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
                 <div className="title">
-                    <h1>"Available Films for Sale !"</h1>
+                    <h1>"Available DVD Films for Sale !"</h1>
                 </div> 
-                <ul><h2>
+                <ul>
                     {films.map((film)=>{
                         return(
                         <li>
                             <nav>
                                 <div>
+                                    <h2>
                                     <a href={`/films/${film.id}`}>{film.name}</a>
+                                    </h2>
                                 </div>
                                 <div className='flex-container'>
                                 <div>
-                                    <img src={film.img} width='40%' alt={film.name}/>
+                                <a href={`/films/${film.id}`}><img src={film.img} width='40%' alt={film.name}/></a>
                                 </div>
                                 <div>
-                                    <h3>
+                                    <h2>
                                     Price : ${film.price} 
-                                    </h3>
+                                    </h2>
                                 </div>
                                 </div>
                                 
@@ -35,7 +37,6 @@ class Index extends React.Component{
                         </li>
                         );
                     })}
-                    </h2>
                 </ul> 
                 <nav>
                     <a href="/films/new"> Add a new Film</a> | 

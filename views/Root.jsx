@@ -11,8 +11,8 @@ class Rootpage extends React.Component{
             <body>
             <div className="main">
                 <h1>Welcome to the Film DVD Store!</h1>
-                Here you will find all you need for your favorite Films! <br />
-                Please click <a href="/films">here</a>  to see our select DVDs and more. 
+                Here you will find all the favorite Films you need! <br />
+                Please click <a href="/films">here</a>  to see our selected DVDs and more. 
             </div>
             </body>
         </html>

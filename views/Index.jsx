@@ -18,7 +18,7 @@ class Index extends React.Component{
                             <nav>
                                 <div>
                                     <h2>
-                                    <a href={`/films/${film.id}`}>{film.name}</a>
+                                    The Film DVD Title : {film.name}
                                     </h2>
                                 </div>
                                 <div className='flex-container'>
@@ -33,7 +33,7 @@ class Index extends React.Component{
                                 </div>
                                 
                             </nav> 
-                             <br /><br />
+                             <br/><br/>
                         </li>
                         );
                     })}

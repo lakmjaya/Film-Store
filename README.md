@@ -7,6 +7,9 @@ I choose to go with a lot of DVD films those are on sale.
  
 ## Film Store - My 7 RESTful Routes (INDUCES)
 
+### Short Video about the app
+https://youtu.be/_WDMvBVISW0
+
 ### All Default Route Features
 Users can navigate to the Home page, Films list page, add film page and  edit the film detail page using the nav bar. 
 
@@ -74,10 +77,8 @@ Clicking the Delete button will remove the film DVD from both the film display l
 
 
 ## To access this repo:
-Open Git Bash and run the following in your terminal:
-`git clone https://github.com/lakmjaya/Film-Store.git`
-
-
+1. Clone or fork the repository Using your terminal copy the following code: git clone https://github.com/lakmjaya/Film-Store.git
+2. Using VScode, download the required packages and use your localhost:300 to run the website.
 
 
 

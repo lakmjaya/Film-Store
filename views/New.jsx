@@ -5,6 +5,7 @@ class New extends React.Component{
         return(
             <div className="main">
             <body>
+            <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
                 <div className="title">
                     <h1>Add New Film DVD Page</h1>
                 </div> 

@@ -58,6 +58,11 @@ If the quantity remaining is ever less than 1, a OUT of Stock message will displ
 ### Destroy Route  (URL: /films/:id)
 Clicking the Delete button will remove the film DVD from both the film display list and the database. The user will then be redirected to the index page.
 
+## The Challenge
+
+The biggest challenge of my project  was the "Update Route" syntax.
+
+
 ## Technologies Used
 - JavaScript
 - CSS

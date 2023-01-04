@@ -83,6 +83,9 @@ The biggest challenge of my project  was the "Update Route" syntax.
 
 ## To access this repo:
 1. Clone or fork the repository Using your terminal copy the following code: git clone https://github.com/lakmjaya/Film-Store.git
+
+ https://lakmjaya.github.io/Film-Store/
+ 
 2. Using VScode, download the required packages and use your localhost:300 to run the website.
 
 
